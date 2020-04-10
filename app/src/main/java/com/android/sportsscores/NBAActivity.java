@@ -26,7 +26,7 @@ public class NBAActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 //NCAA Football Button
-                Intent intent = new Intent(NBAActivity.this, MainActivity.class);
+                Intent intent = new Intent(NBAActivity.this, NCAAFootballActivity.class);
                 startActivity(intent);
             }
         });

@@ -14,7 +14,7 @@
         <activity android:name=".MLBActivity" />
         <activity android:name=".NCAABaseballActivity" />
         <activity android:name=".NCAABasketballActivity" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".NCAAFootballActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

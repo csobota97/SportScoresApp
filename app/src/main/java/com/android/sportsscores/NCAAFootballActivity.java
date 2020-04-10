@@ -8,7 +8,7 @@ import android.widget.Button;
 
 import android.os.Bundle;
 
-public class MainActivity extends AppCompatActivity {
+public class NCAAFootballActivity extends AppCompatActivity {
 
     private Button mNcaaFootballButton;
     private Button mNcaaBasketballButton;
@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 //NCAA Basketball Button
-                Intent intent = new Intent(MainActivity.this, NCAABasketballActivity.class);
+                Intent intent = new Intent(NCAAFootballActivity.this, NCAABasketballActivity.class);
                 startActivity(intent);
             }
         });
@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 //NCAA Baseball Button
-                Intent intent = new Intent(MainActivity.this, NCAABaseballActivity.class);
+                Intent intent = new Intent(NCAAFootballActivity.this, NCAABaseballActivity.class);
                 startActivity(intent);
             }
         });
@@ -55,7 +55,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 //MLB Button
-                Intent intent = new Intent(MainActivity.this, MLBActivity.class);
+                Intent intent = new Intent(NCAAFootballActivity.this, MLBActivity.class);
                 startActivity(intent);
             }
         });
@@ -65,7 +65,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 //NBA Button
-                Intent intent = new Intent(MainActivity.this, NBAActivity.class);
+                Intent intent = new Intent(NCAAFootballActivity.this, NBAActivity.class);
                 startActivity(intent);
             }
         });
@@ -75,7 +75,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 //NFL Button
-                Intent intent = new Intent(MainActivity.this, NFLActivity.class);
+                Intent intent = new Intent(NCAAFootballActivity.this, NFLActivity.class);
                 startActivity(intent);
             }
         });
