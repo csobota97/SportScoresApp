@@ -57,7 +57,33 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:text="Major League Baseball" />
+        android:layout_gravity="left"
+        android:layout_marginLeft="10px"
+        android:text="@string/oak_hou_time"
+        android:textSize="50px"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginLeft="10px"
+        android:text="@string/oak_hou_score"
+        android:textSize="65px"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginLeft="10px"
+        android:text="@string/lad_laa_time"
+        android:textSize="50px"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginLeft="10px"
+        android:text="@string/lad_laa_score"
+        android:textSize="65px"/>
 
 </LinearLayout>

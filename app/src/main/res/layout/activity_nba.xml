@@ -57,7 +57,33 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:text="National Basketball League" />
+        android:layout_gravity="left"
+        android:layout_marginLeft="10px"
+        android:text="@string/okc_lal_time"
+        android:textSize="50px"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginLeft="10px"
+        android:text="@string/okc_lal_score"
+        android:textSize="65px"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginLeft="10px"
+        android:text="@string/ind_cle_time"
+        android:textSize="50px"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginLeft="10px"
+        android:text="@string/ind_cle_score"
+        android:textSize="65px"/>
 
 </LinearLayout>

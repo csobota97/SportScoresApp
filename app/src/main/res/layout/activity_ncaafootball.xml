@@ -57,7 +57,33 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:text="College Football" />
+        android:layout_gravity="left"
+        android:layout_marginLeft="10px"
+        android:text="@string/neb_time_left"
+        android:textSize="50px"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginLeft="10px"
+        android:text="@string/neb_iowa_score"
+        android:textSize="65px"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginLeft="10px"
+        android:text="@string/texas_ou_time"
+        android:textSize="50px"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginLeft="10px"
+        android:text="@string/texas_ou_score"
+        android:textSize="65px"/>
 
 </LinearLayout>

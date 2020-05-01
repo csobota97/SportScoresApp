@@ -1,3 +1,39 @@
 <resources>
     <string name="app_name">SportsScores</string>
+
+    <string name="neb_time_left">\n4th&#160;11:43</string>
+    <string name="neb_iowa_score">NEB&#160;&#160;&#160;&#160;42\nIOWA&#160;&#160;10</string>
+
+    <string name="texas_ou_time">\n2nd&#160;4:22</string>
+    <string name="texas_ou_score">TEXAS&#160;&#160;3\nOU&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;10</string>
+
+    <string name="gonzaga_port_time">\n2nd&#160;16:10</string>
+    <string name="gonzaga_port_score">GONZ&#160;&#160;44\nPORT&#160;&#160;23</string>
+
+    <string name="usc_wsu_time">\nFINAL</string>
+    <string name="usc_wsu_score">USC&#160;&#160;65\nWSU&#160;&#160;56</string>
+
+    <string name="usf_hou_time">\nTOP 8</string>
+    <string name="usf_hou_score">USF&#160;&#160;4\nHOU&#160;&#160;6</string>
+
+    <string name="ucf_mem_time">\nBOT 2</string>
+    <string name="ucf_mem_score">UCF&#160;&#160;&#160;&#160;0\nMEM&#160;&#160;0</string>
+
+    <string name="oak_hou_time">\nBOT 5</string>
+    <string name="oak_hou_score">OAK&#160;&#160;10\nHOU&#160;&#160;1</string>
+
+    <string name="lad_laa_time">\nFINAL</string>
+    <string name="lad_laa_score">LAD&#160;&#160;14\nLAA&#160;&#160;12</string>
+
+    <string name="okc_lal_time">\n4th&#160;8:33</string>
+    <string name="okc_lal_score">OKC&#160;&#160;96\nLAL&#160;&#160;92</string>
+
+    <string name="ind_cle_time">\n1st&#160;11:32</string>
+    <string name="ind_cle_score">IND&#160;&#160;3\nCLE&#160;&#160;5</string>
+
+    <string name="gb_sf_time">\n3rd&#160;2:00</string>
+    <string name="gb_sf_score">GB&#160;&#160;31\nSF&#160;&#160;17</string>
+
+    <string name="dal_min_time">\n1st&#160;9:55</string>
+    <string name="dal_min_score">DAL&#160;&#160;7\nMIN&#160;&#160;0</string>
 </resources>
