@@ -57,7 +57,33 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:text="National Football League" />
+        android:layout_gravity="left"
+        android:layout_marginLeft="10px"
+        android:text="@string/gb_sf_time"
+        android:textSize="50px"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginLeft="10px"
+        android:text="@string/gb_sf_score"
+        android:textSize="65px"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginLeft="10px"
+        android:text="@string/dal_min_time"
+        android:textSize="50px"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginLeft="10px"
+        android:text="@string/dal_min_score"
+        android:textSize="65px"/>
 
 </LinearLayout>
